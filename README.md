@@ -1,5 +1,5 @@
 Our project is a process of ordering food from a local restaurant or food cooperation through internet. 
-A customer will search for e restaurant, usually filtered via type of cuisine. /
+A customer will search for e restaurant, usually filtered via type of cuisine. \
 We built a food ordering application with the following functionalities:
 1. A ‘Welcome page’ which displays the logo and name of the app.
 2. A ‘Login Page’ which asks for users’ mobile number and password.
