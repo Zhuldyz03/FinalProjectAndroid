@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">FoodRunner</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="don_t_have_an_account_sign_up_now"><u>Don t have an Account? Sign up now</u></string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="choose_from_menu_listed_below">Choose from menu listed below:</string>
+    <string name="proceed_to_cart">Proceed to cart</string>
+    <string name="confirm_order">Confirm Order</string>
+    <string name="no_favorites">No Favourites</string>
+    <string name="enter_otp">Enter the OTP below:</string>
+    <string name="submit">Submit</string>
+    <string name="name">Name</string>
+    <string name="order_placed">Your Order has been placed successfully placed !</string>
+    <string name="dummy_date">date</string>
+    <string name="no_orders">No Orders</string>
+    <string name="order_history_static_text">Order History</string>
+    <string name="filter">filter</string>
+    <string name="faq_answer_one" > Sona app</string>
+    <string name="faq_answer_two" > This Sona App is fully working food ordering app with the list of
+    top Restaurants from where the user can food according to his/her taste. </string>
+    <string name="faq_answer_three" > For everyone who likes to watch restaurants.</string>
+    <string name="enter_your_registered_mobile_number_and_email_below">Enter your registered mobile number and email below:</string>
+    <string name="register">Register</string>
+    <string name="tg400">Tg.400</string>
+    <string name="ordering_from">Ordering From :</string>
+    <string name="restaurant_name_comes_here">Restaurant Name Comes Here</string>
+    <string name="ok">Ok</string>
+    <string name="_1">1.</string>
+    <string name="remove">Remove</string>
+    <string name="add">Add</string>
+
+    <string name="mobile">mobile</string>
+    <string name="f_o_o_d_r_u_n_n_e_r">S O N A</string>
+    <string name="email">email</string>
+    <string name="q_1_name_of_the_developer_of_the_app">Q.1 Name of the App?</string>
+    <string name="q_2_about_the_app">Q.2 About the App?</string>
+    <string name="q_3_credits">Q.3 Target audience?</string>
+    <string name="tg_400">Tg. 400</string>
+    <string name="tg_300_person">Tg.300/person</string>
+    <string name="otp_4_characters">(4 characters)</string>
+    <string name="new_password_6_characters">New Password ( 6 characters)</string>
+    
+    <string name="email_address">Email Address</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="password_min_4_characters">Password(Min.4 characters)</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="mobile_number_10_digits">Mobile Number(10 Digits)</string>
+    <string name="next">Next</string>
+</resources>

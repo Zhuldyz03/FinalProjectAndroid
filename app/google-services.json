@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "430453960244",
+    "project_id": "sona-app-8e8bd",
+    "storage_bucket": "sona-app-8e8bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430453960244:android:d6d4906141c90a49f62461",
+        "android_client_info": {
+          "package_name": "com.example.sona_app.Activities"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430453960244-qmk4jeuaaokd8mhkbpbliauu7ihpt9uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUUJXIF9GBgc2-iI-aXs5MbO-Ydoz8pNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430453960244-qmk4jeuaaokd8mhkbpbliauu7ihpt9uh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

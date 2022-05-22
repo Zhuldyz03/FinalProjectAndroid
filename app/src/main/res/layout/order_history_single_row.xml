@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llStaticOrderHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtHistoryResName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_weight="3.5"
+            android:text="@string/restaurant_name"
+            android:padding="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/txtOrderDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/dummy_date"
+            android:padding="5dp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerOrderHistoryDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llStaticOrderHistory"
+        android:padding="5dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/recyclerOrderHistoryDetail"/>
+
+</RelativeLayout>

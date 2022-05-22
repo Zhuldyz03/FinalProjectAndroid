@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LoginActivity"
+    android:background="@color/colorPrimary">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="344dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="110dp"
+        android:src="@drawable/ic_log_in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/edtLogMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#F7F2F2"
+        android:drawableLeft="@drawable/ic_phone_icon"
+        android:ems="10"
+        android:hint=" Mobile Number(10 Digits)"
+        android:inputType="textPersonName|textEmailAddress|phone"
+        android:text=""
+        android:textSize="20sp"
+        android:maxLength="10"
+        android:maxLines="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/edtLogPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="23dp"
+        android:background="#EEE5E5"
+        android:drawableLeft="@drawable/ic_password_icon"
+        android:ems="10"
+        android:hint=" Password"
+        android:inputType="textPersonName|textPassword"
+        android:padding="10dp"
+        android:text=""
+        android:maxLength="6"
+        android:maxLines="1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.439" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#3C14A5"
+        android:text="Login"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.563" />
+
+
+
+    <TextView
+        android:id="@+id/txtSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/don_t_have_an_account_sign_up_now"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtForgotPassword"
+        app:layout_constraintVertical_bias="0.775"
+        android:linksClickable="true"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
