@@ -1,4 +1,4 @@
-**Aigerim Berdimurat SE-2001 and Zhuldyz Baurzhanova SE-2009**
+**Aigerim Berdimurat SE-2001 and Zhuldyz Baurzhanova SE-2009** \
 Our project is a process of ordering food from a local restaurant or food cooperation through internet. 
 A customer will search for e restaurant, usually filtered via type of cuisine. \
 **We built a food ordering application with the following functionalities:** 
